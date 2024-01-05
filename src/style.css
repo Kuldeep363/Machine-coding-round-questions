@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #EBECF2;
+}
+
+.App {
+  text-align: center;
+}
+.hr{
+  width: 100%;
+  height: 1px;
+  border-radius: 5px;
+  background-color: #dedede;
+}
+.wrapper {
+  width: 450px;
+  background-color: #fefefe;
+  border-radius: 10px;
+  font-size: 12px;
+  box-shadow: 0 0 10px #2525251e;
+  padding: 10px;
+}
+
+.comment-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-box .reply-btn {
+  font-size: 14px;
+  background-color: rgb(91, 91, 255);
+  color: #fefefe;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-box input {
+  margin-bottom: 0;
+}
+
+.input-box {
+  padding: 10px;
+  border: none;
+  margin: 5px 0;
+  outline: none;
+  pointer-events: none;
+  width: 90%;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+}
+
+.editing.input-box {
+  box-shadow: 0 0 10px #25252532;
+  pointer-events: unset;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.buttons div {
+  cursor: pointer;;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+
+.comment-feature-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.comment-box-wrapper {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.comment-box-wrapper input {
+  width: 70%;
+  padding: 7px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #252525;
+}
+
+.user-avatar {
+  /* padding: 6px; */
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 196, 218);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.comment-inner{
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.comment-wrapper{
+  margin: 10px 0;
+}
+.comment-reply{
+  margin-left: 40px;
+}
+.reply-box{
+  display: flex;
+  justify-content: flex-end;
+}
+.reply-box input{
+  padding: 7px;
+  outline: none;
+  border: 1px solid #252525;
+  border-radius: 7px;
+  width: 70%;
+}
