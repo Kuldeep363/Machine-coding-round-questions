@@ -8,7 +8,7 @@ export const allComments = [
       },
       replies: [
         {
-          id: 5,
+          id: 2,
           comment: "thanks!",
           author: {
             name:"admin",
@@ -16,7 +16,7 @@ export const allComments = [
           },
           replies: [
             {
-              id: 6,
+              id: 3,
               comment: "my pleasure!",
               author: {
                 name:"Kulddep",
@@ -29,7 +29,7 @@ export const allComments = [
       ],
     },
     {
-      id: 2,
+      id: 4,
       comment: "Good!",
       author: {
         name:"monu",
@@ -38,7 +38,7 @@ export const allComments = [
       replies: [],
     },
     {
-      id: 3,
+      id: 5,
       comment: "woow!",
       author: {
         name:"rohan",
@@ -46,7 +46,7 @@ export const allComments = [
       },
       replies: [
         {
-          id: 8,
+          id: 6,
           comment: "my pleasure!",
           author: {
             name:"Kulddep",
@@ -55,7 +55,7 @@ export const allComments = [
           replies: [],
         },
         {
-          id: 9,
+          id: 7,
           comment: "my pleasure!",
           author: {
             name:"Kulddep",
@@ -63,7 +63,7 @@ export const allComments = [
           },
           replies: [
             {
-              id: 10,
+              id: 8,
               comment: "my pleasure!",
               author: {
                 name:"admin",
@@ -76,7 +76,7 @@ export const allComments = [
       ],
     },
     {
-      id: 4,
+      id: 9,
       comment: "awesome!",
       author: {
         name:"sandy",
@@ -85,7 +85,7 @@ export const allComments = [
       replies: [],
     },
     {
-      id: 7,
+      id: 10,
       comment: "looking nice!",
       author: {
         name:"mohan",

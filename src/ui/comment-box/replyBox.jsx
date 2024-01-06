@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { user } from '../data';
+import { user } from '../../data';
 
 const ReplyBox = ({id,toggleReply,handleReplyComment}) => {
     const [replyText, setReplyText] = useState("");

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { user } from "../data";
+import { user } from "../../data";
 import Avatar from "./avatar";
 import ReplyBox from "./replyBox";
 
@@ -84,7 +84,7 @@ const Comments = ({
       </div>
       {replies?.length > 0
         ? replies.map((comment) => (
-          <div className="comment-reply">
+          <div className="comment-reply" key={comment.id}>
             <Comments
               key={comment.id}
               id={comment.id}

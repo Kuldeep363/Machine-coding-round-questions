@@ -3,6 +3,11 @@
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1,h2{
+  margin: 10px 0;
 }
 
 body {
@@ -77,10 +82,11 @@ body {
 }
 
 
-.comment-feature-wrapper {
+.feature-wrapper {
   width: 100vw;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .comment-box-wrapper {
@@ -126,4 +132,22 @@ body {
   border: 1px solid #252525;
   border-radius: 7px;
   width: 70%;
+}
+.card{
+  background-color: #fefefe;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #25252532;
+  min-width: 250px;
+}
+.d-flex{
+  display: flex;
+  gap: 10px;
+}
+a{
+  text-decoration: none;
+}
+.link-img{
+  width: 250px;
+  border-radius: 7px;
 }
